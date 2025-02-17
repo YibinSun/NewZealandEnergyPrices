@@ -33,3 +33,23 @@ Therefore, we extended the project with anomaly detection analysis.
 
 In `anomaly_detection_related.ipynb`, functions to convert the regression datasets to anomaly datasets are defined, followed by an experiment with the Half-Space Trees algorithm.
 This requires further investigation concerning the current status.
+
+## Fetch All Data
+
+If you are intended to fetch all data, you can try the `fetch_all_data.py` or `parallel_fetch.py` scripts.
+These will try to retrieve all data from the website in parallel, saving some time.
+
+## Cite Us
+
+If you use the code or data in this project, please cite us:
+
+```
+@inproceedings{sun2024real,
+  title={Real-Time Energy Pricing in New Zealand: An Evolving Stream Analysis},
+  author={Sun, Yibin and Gomes, Heitor Murilo and Pfahringer, Bernhard and Bifet, Albert},
+  booktitle={Pacific Rim International Conference on Artificial Intelligence},
+  pages={91--97},
+  year={2024},
+  organization={Springer}
+}
+```
